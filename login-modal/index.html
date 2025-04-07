@@ -32,7 +32,32 @@
             class="relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 md:m-0">
 
             <!-- card left (input fields) -->
-            <div class="p-6 md:p-20"></div>
+            <div class="p-6 md:p-20">
+                <!-- top content -->
+                <h2 class="font-mono mb-5 text-4xl font-bold">Log In</h2>
+                <p class="max-w-sm mb-12 font-sans font-light text-gray-600">
+                    Log in to your accont to upload or download pictures, videos, or music
+                </p>
+                <!-- input fields -->
+                <input type="text"
+                    class="w-full p-6 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light"
+                    placeholder="Enter your email address" />
+
+                <!-- middle content -->
+                <div class="flex flex-col items-center justify-between mt-6 space-y-6 md:flex-row md:space-y-0">
+                    <div class="font-thin text-cyan-700">Forgot password</div>
+                    <button class="w-full md:w-auto flex">
+                        <span>Next</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-7" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <line x1="13" y1="18" x2="19" y2="12"></line>
+                            <line x1="13" y1="6" x2="19" y2="12"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
 
             <!-- card right (image / only shown on lg) -->
             <img src="images/image.jpg" alt="" class="w-[430px] hidden md:block">
